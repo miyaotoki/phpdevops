@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: phpdevops
+      app: miyaotoki/phpdevops
   replicas: 1
   template:
     metadata:
