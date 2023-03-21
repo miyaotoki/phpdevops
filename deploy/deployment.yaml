@@ -12,7 +12,7 @@ spec:
       labels:
         app: phpdevops
     spec:
-      nodeName: php-demo-node
+      nodeName: phpdevops
       containers:
         - name: phpdevops
           image: miyaotoki/phpdevops:${BUILD_NUMBER}
