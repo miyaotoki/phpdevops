@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: miyaotoki/phpdevops
+      app: phpdevops
   replicas: 1
   template:
     metadata:
@@ -14,7 +14,7 @@ spec:
     spec:
       nodeName: demo-cluster-m02
       containers:
-        - name: laravel-hello-1
+        - name: phpdevops
           image: miyaotoki/phpdevops:${BUILD_NUMBER}
           imagePullPolicy: Always
           ports:
